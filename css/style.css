@@ -1,0 +1,131 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Century Gothic";
+    background-color: #1f1f1f;
+    color: white;
+}
+
+#navbar{
+    height: 50px;
+    width: 100%;
+   
+}
+#name_p{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 9px;
+    letter-spacing: 3px;
+    color: #ffba00;
+}
+#name_p:hover{
+    color: #fff;
+    cursor:pointer;
+}
+#list ul{
+    list-style: none;
+    margin-top: 17px;
+}
+#list ul li{
+    display: inline-block;
+	margin-right: 50px;
+    padding-bottom: 3px;
+}
+#list ul li:hover{
+    color: #ffba00;
+    cursor:pointer;
+    border-bottom: 2px solid #ffba00;
+}
+
+#login_p{
+    color: #ffba00;
+    margin-top: 17px;
+    margin-left: 25px;
+}
+#login_p:hover{
+    cursor:pointer;
+}
+
+#image_text{
+    position: relative;   
+}
+#image_text img{
+    width: 808px;
+    height: 450px;
+    position: absolute;
+    left:332px;
+    top: 0px;
+}
+#image_text p{
+    font-weight: bold;
+    font-size: 50px;
+    position: absolute;
+}
+#new_arrivals{
+    font-size: 25px;
+    position: absolute;
+    top:350px;
+    border-bottom: 1px solid white;
+}
+#new_arrivals:hover{
+    color: #ffba00;
+    border-bottom: 1px solid #ffba00;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#button_shop_now button{
+    border: 2px solid #ffba00;
+    background-color: #1f1f1f;
+    position: absolute;
+    top: 470px;
+    left: 35%;
+    font-size: 20px;
+    padding: 5px 70px;
+}
+
+#button_shop_now button:hover{
+    background-color: #fff;
+    color: #ffba00;
+    font-weight: bold;
+}
+#title{
+    text-align: center;
+    border-top: 2px solid #ffba00;
+    font-size: 30px;
+    padding-top: 20px ;
+    padding-bottom: 30px
+}
+#left ul{
+    list-style: none;
+    margin-left: 30px;
+}
+#left ul li{
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+#left ul li:hover{
+    color: #ffba00;
+}
+#photo_box{
+    height: 240px;
+    width: 205px;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+    overflow: hidden;
+}
+#image{
+    overflow: hidden;
+    height: 96.5%;
+    background-color: #fff;
+}
+#img14s{
+    margin-top: 10px;
+}
+.img-resize{
+    object-fit:cover;
+    object-position: center center;
+}
