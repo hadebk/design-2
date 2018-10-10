@@ -17,11 +17,11 @@ $(document).ready(function(){
     $("#"+par).hover(
         function(){
         $("#"+par).animate({
-            height:"350px"
+            height:"420px"
         },600)},
         function(){
         $("#"+par).animate({
-            height:"230px"
+            height:"300px"
         },600)
     });
     }
